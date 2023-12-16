@@ -39,7 +39,6 @@ declare module '$env/static/private' {
 	export const HOMEBREW_REPOSITORY: string;
 	export const npm_config_global_prefix: string;
 	export const TERM_PROGRAM_VERSION: string;
-	export const npm_package_optional: string;
 	export const COLOR: string;
 	export const TERM_SESSION_ID: string;
 	export const npm_config_noproxy: string;
@@ -50,12 +49,10 @@ declare module '$env/static/private' {
 	export const LS_COLORS: string;
 	export const COMMAND_MODE: string;
 	export const npm_config_globalconfig: string;
-	export const npm_package_peer: string;
 	export const SSH_AUTH_SOCK: string;
 	export const __CF_USER_TEXT_ENCODING: string;
 	export const npm_execpath: string;
 	export const BASH_SILENCE_DEPRECATION_WARNING: string;
-	export const npm_package_integrity: string;
 	export const TMUX: string;
 	export const PATH: string;
 	export const npm_package_json: string;
@@ -73,18 +70,14 @@ declare module '$env/static/private' {
 	export const npm_config_npm_version: string;
 	export const XPC_FLAGS: string;
 	export const TMUX_PANE: string;
-	export const npm_package_engines_node: string;
 	export const npm_config_node_gyp: string;
-	export const npm_package_dev: string;
 	export const npm_package_version: string;
 	export const XPC_SERVICE_NAME: string;
-	export const npm_package_resolved: string;
 	export const SHLVL: string;
 	export const HOME: string;
 	export const COLORFGBG: string;
 	export const LC_TERMINAL_VERSION: string;
 	export const HOMEBREW_PREFIX: string;
-	export const npm_package_dev_optional: string;
 	export const ITERM_SESSION_ID: string;
 	export const npm_config_cache: string;
 	export const LOGNAME: string;
@@ -100,6 +93,7 @@ declare module '$env/static/private' {
 	export const npm_config_prefix: string;
 	export const COLORTERM: string;
 	export const _: string;
+	export const NODE_ENV: string;
 }
 
 /**
@@ -144,7 +138,6 @@ declare module '$env/dynamic/private' {
 		HOMEBREW_REPOSITORY: string;
 		npm_config_global_prefix: string;
 		TERM_PROGRAM_VERSION: string;
-		npm_package_optional: string;
 		COLOR: string;
 		TERM_SESSION_ID: string;
 		npm_config_noproxy: string;
@@ -155,12 +148,10 @@ declare module '$env/dynamic/private' {
 		LS_COLORS: string;
 		COMMAND_MODE: string;
 		npm_config_globalconfig: string;
-		npm_package_peer: string;
 		SSH_AUTH_SOCK: string;
 		__CF_USER_TEXT_ENCODING: string;
 		npm_execpath: string;
 		BASH_SILENCE_DEPRECATION_WARNING: string;
-		npm_package_integrity: string;
 		TMUX: string;
 		PATH: string;
 		npm_package_json: string;
@@ -178,18 +169,14 @@ declare module '$env/dynamic/private' {
 		npm_config_npm_version: string;
 		XPC_FLAGS: string;
 		TMUX_PANE: string;
-		npm_package_engines_node: string;
 		npm_config_node_gyp: string;
-		npm_package_dev: string;
 		npm_package_version: string;
 		XPC_SERVICE_NAME: string;
-		npm_package_resolved: string;
 		SHLVL: string;
 		HOME: string;
 		COLORFGBG: string;
 		LC_TERMINAL_VERSION: string;
 		HOMEBREW_PREFIX: string;
-		npm_package_dev_optional: string;
 		ITERM_SESSION_ID: string;
 		npm_config_cache: string;
 		LOGNAME: string;
@@ -205,6 +192,7 @@ declare module '$env/dynamic/private' {
 		npm_config_prefix: string;
 		COLORTERM: string;
 		_: string;
+		NODE_ENV: string;
 		[key: `PUBLIC_${string}`]: undefined;
 		[key: `${string}`]: string | undefined;
 	}

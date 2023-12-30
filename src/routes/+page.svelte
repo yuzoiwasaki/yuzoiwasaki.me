@@ -1,5 +1,9 @@
 <script>
   import profile from '$lib/images/profile.jpg'
+
+  export let data;
+
+  $: ({ skills } = data);
 </script>
 
 <svelte:head>
@@ -26,17 +30,13 @@
 <section>
   <h2>Skills</h2>
   <div class="skills-container">
-    <div class="skill-card">
-      <h3>HTML</h3>
-      <p>Webページの構造を作成するためのマークアップ言語です。</p>
-      <a href="/skills/html">Read More</a>
-    </div>
-
-    <div class="skill-card">
-      <h3>CSS</h3>
-      <p>Webページのスタイルを管理するためのスタイルシート言語です。</p>
-      <a href="/skills/css">Read More</a>
-    </div>
+    {#each skills as skill}
+      <div class="skill-card">
+        <h3>{skill.name}</h3>
+        <p>{skill.year}</p>
+        <a href="/skills/{skill.id}">Read More</a>
+      </div>
+    {/each}
   </div>
  </section>
 

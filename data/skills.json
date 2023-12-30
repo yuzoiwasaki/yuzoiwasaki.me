@@ -2,11 +2,13 @@
   {
     "id": "html",
     "name": "HTML",
+    "year": "5年",
     "description": "これはHTMLの詳細ページです"
   },
   {
     "id": "css",
     "name": "CSS",
+    "year": "3年",
     "description": "これはCSSの詳細ページです"
   }
 ]

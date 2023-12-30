@@ -4,8 +4,7 @@
 
 <svelte:head>
   <title>Your Name - Portfolio</title>
-  <!-- Font Awesome CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-BcJBDj8eI9d0/DScRBmF1+tdIrmlr92XNTwCGiqbcHTFq9TWgz6auTLTKA7evdTZ4hj0E1o2BoWtP62j/hhXuQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://kit.fontawesome.com/45ebf8b346.js" crossorigin="anonymous"></script>
 </svelte:head>
 
 <header>
@@ -14,8 +13,8 @@
   <p>Web Developer</p>
 
   <div class="profile-icons">
-    <a href="https://twitter.com/your_twitter_username" target="_blank"><i class="fab fa-twitter"></i></a>
-    <a href="https://github.com/your_github_username" target="_blank"><i class="fab fa-github"></i></a>
+    <a href="https://twitter.com/your_twitter_username" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+    <a href="https://github.com/your_github_username" target="_blank"><i class="fa-brands fa-github"></i></a>
   </div>
 </header>
 

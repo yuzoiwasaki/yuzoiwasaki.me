@@ -5,13 +5,13 @@ async function loadSkills() {
   return JSON.parse(content);
 }
 
-async function getSkillFromDatabase(skillId) {
+async function getSkillFromJson(skillId) {
   const skills = await loadSkills();
   return skills.find((skill) => skillId === skill.id);
 }
 
 export async function load({ params }) {
   const skillId = params.id
-  const skill = await getSkillFromDatabase(skillId);
+  const skill = await getSkillFromJson(skillId);
   return { skill };
 }

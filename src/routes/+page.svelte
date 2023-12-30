@@ -1,4 +1,9 @@
+<script>
+  import profile from '$lib/images/profile.jpg'
+</script>
+
 <header>
+  <img src={profile} alt="Your Name">
   <h1>Your Name</h1>
   <p>Web Developer</p>
 </header>
@@ -42,7 +47,15 @@
     background-color: #333;
     color: #fff;
     text-align: center;
-    padding: 1em 0;
+    padding: 2em 0;
+  }
+
+  header img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 1em;
   }
 
   section {

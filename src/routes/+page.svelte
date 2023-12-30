@@ -52,11 +52,8 @@
  <section class="article-container">
    <h2>Representative Articles</h2>
 
-   <div class="article-card">
-     <h3>Getting Started with Web Development</h3>
-     <p>Learn the basics of web development and get started on your coding journey.</p>
-     <a href="article1.html">Read More</a>
-   </div>
+   <a href="article1.html" class="article-link">Getting Started with Web Development</a>
+   <a href="article2.html" class="article-link">CSS Tips for Better Layouts</a>
  </section>
 
  <section>
@@ -189,18 +186,9 @@
     margin-top: 2em;
   }
 
-  .article-card {
-    border-left: 4px solid #28a745;
-    padding-left: 1em;
-    margin-bottom: 1em;
-  }
-
-  .article-card h3 {
-    color: #333;
-  }
-
-  .article-card p {
-    color: #555;
+  .article-link {
+    display: block;
+    margin-bottom: 0.5em;
   }
 
   footer {

@@ -1,6 +1,8 @@
 # yuzoiwasaki.me
 
-[yuzoiwasaki](https://github.com/yuzoiwasaki) のポートフォリオサイトです
+This is my portfolio site.
+
+[yuzoiwasaki.me](yuzoiwasaki.me)
 
 ## Developing
 

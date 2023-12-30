@@ -7,7 +7,7 @@
 </script>
 
 <svelte:head>
-  <title>yuzoiwasakiのポートフォリオサイト</title>
+  <title>Yuzo Iwasaki のポートフォリオサイト</title>
   <script src="https://kit.fontawesome.com/45ebf8b346.js" crossorigin="anonymous"></script>
 </svelte:head>
 

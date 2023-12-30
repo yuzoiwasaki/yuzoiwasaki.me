@@ -12,7 +12,7 @@
 </svelte:head>
 
 <header>
-  <img src={profile} alt="Your Name">
+  <img src={profile} alt="プロフィール画像">
   <h1>Yuzo Iwasaki</h1>
   <p>Software Engineer / Site Reliability Engineer / Engineering Manager and Other</p>
 
@@ -88,6 +88,10 @@
     margin-bottom: 1em;
   }
 
+  header p {
+    color: #fff;
+  }
+
   .profile-icons {
     display: flex;
     justify-content: center;
@@ -107,7 +111,7 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
 
-  h1, h2 {
+  h2 {
     color: #333;
   }
 

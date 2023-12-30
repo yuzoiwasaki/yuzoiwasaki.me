@@ -88,10 +88,6 @@
     margin-bottom: 1em;
   }
 
-  header p {
-    color: #fff;
-  }
-
   .profile-icons {
     display: flex;
     justify-content: center;

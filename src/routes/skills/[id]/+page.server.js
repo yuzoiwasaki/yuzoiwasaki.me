@@ -1,16 +1,8 @@
+import { readFile } from 'fs/promises';
+
 async function loadSkills() {
-  return [
-    {
-      id: 'html',
-      name: 'HTML',
-      description: 'これはHTMLの詳細ページです'
-    },
-    {
-      id: 'css',
-      name: 'CSS',
-      description: 'これはCSSの詳細ページです'
-    }
-  ];
+  const content = await readFile('data/skills.json', { encoding: 'utf-8' });
+  return JSON.parse(content);
 }
 
 async function getSkillFromDatabase(skillId) {

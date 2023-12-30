@@ -1,0 +1,12 @@
+[
+  {
+    "id": "html",
+    "name": "HTML",
+    "description": "これはHTMLの詳細ページです"
+  },
+  {
+    "id": "css",
+    "name": "CSS",
+    "description": "これはCSSの詳細ページです"
+  }
+]

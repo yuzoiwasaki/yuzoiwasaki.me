@@ -1,6 +1,6 @@
 # yuzoiwasaki.me
 
-yuzoiwasaki のポートフォリオサイトです
+[yuzoiwasaki](https://github.com/yuzoiwasaki) のポートフォリオサイトです
 
 ## Developing
 

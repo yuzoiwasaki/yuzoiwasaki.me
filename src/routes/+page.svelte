@@ -27,6 +27,15 @@
   <p>エンジニア歴15年程度のベテランエンジニアです。ソフトウェアエンジニアリングをはじめ、SREやマネジメント、採用、IT統制など幅広く関わってきました。HRTを大切にする優しいチームが好きで、自らがマネージャーの際はそのようなチーム作りを心掛けています。</p>
 </section>
 
+<section class="experience-container">
+  <h2>Experience</h2>
+  <div class="experience-card">
+    <h3>Web Developer at ABC Company</h3>
+    <p>期間: 20XX年 - 20YY年</p>
+    <p>業務内容: Webアプリケーションの開発およびメンテナンス。</p>
+  </div>
+</section>
+
 <section>
   <h2>Skills</h2>
   <div class="skills-container">
@@ -122,6 +131,24 @@
 
   .social-links a:hover {
     text-decoration: underline;
+  }
+
+  .experience-container {
+    margin-top: 2em;
+  }
+
+  .experience-card {
+    border-left: 4px solid #007BFF;
+    padding-left: 1em;
+    margin-bottom: 1em;
+  }
+
+  .experience-card h3 {
+    color: #333;
+  }
+
+  .experience-card p {
+    color: #555;
   }
 
   .skills-container {

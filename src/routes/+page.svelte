@@ -25,12 +25,26 @@
 </section>
 
 <section>
-  <h2>Projects</h2>
-  <ul>
-    <li><a href="#">Project 1</a> - 説明や技術スタックなど</li>
-    <li><a href="#">Project 2</a> - 説明や技術スタックなど</li>
-    <!-- 追加のプロジェクトをここに追加 -->
-  </ul>
+  <h2>Skills</h2>
+  <div class="skills-container">
+    <div class="skill-card">
+      <h3>HTML</h3>
+      <p>Webページの構造を作成するためのマークアップ言語です。</p>
+      <a href="#">Learn More</a>
+    </div>
+
+    <div class="skill-card">
+      <h3>CSS</h3>
+      <p>Webページのスタイルを管理するためのスタイルシート言語です。</p>
+      <a href="#">Learn More</a>
+    </div>
+  </div>
+ </section>
+
+ <section>
+   <h2>HTML</h2>
+   <p>HTML（HyperText Markup Language）は、Webページの構造を作成するためのマークアップ言語です。</p>
+   <p>このスキルに関連するプロジェクトや実績についての詳細情報を表示します。</p>
  </section>
 
  <section>
@@ -102,13 +116,6 @@
     text-decoration: underline;
   }
 
-  footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 1em 0;
-  }
-
   .social-links {
     margin-top: 1em;
   }
@@ -122,5 +129,36 @@
 
   .social-links a:hover {
     text-decoration: underline;
+  }
+
+  .skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    justify-content: center;
+  }
+
+  .skill-card {
+    max-width: 300px;
+    padding: 1em;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin: 1em;
+  }
+
+  .skill-card h3 {
+    color: #333;
+  }
+
+  .skill-card p {
+    color: #555;
+  }
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
   }
 </style>

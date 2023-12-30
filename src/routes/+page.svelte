@@ -2,10 +2,21 @@
   import profile from '$lib/images/profile.jpg'
 </script>
 
+<svelte:head>
+  <title>Your Name - Portfolio</title>
+  <!-- Font Awesome CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-BcJBDj8eI9d0/DScRBmF1+tdIrmlr92XNTwCGiqbcHTFq9TWgz6auTLTKA7evdTZ4hj0E1o2BoWtP62j/hhXuQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</svelte:head>
+
 <header>
   <img src={profile} alt="Your Name">
   <h1>Your Name</h1>
   <p>Web Developer</p>
+
+  <div class="profile-icons">
+    <a href="https://twitter.com/your_twitter_username" target="_blank"><i class="fab fa-twitter"></i></a>
+    <a href="https://github.com/your_github_username" target="_blank"><i class="fab fa-github"></i></a>
+  </div>
 </header>
 
  <section>
@@ -25,10 +36,6 @@
  <section>
   <h2>Contact</h2>
   <p>お問い合わせは以下のメールアドレスまでお気軽にどうぞ：<a href="mailto:your.email@example.com">your.email@example.com</a></p>
-  <div class="social-links">
-    <a href="https://twitter.com/your_twitter_username" target="_blank">Twitter</a>
-    <a href="https://github.com/your_github_username" target="_blank">GitHub</a>
-  </div>
  </section>
 
  <footer>
@@ -58,6 +65,17 @@
     margin-bottom: 1em;
   }
 
+  .profile-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+  }
+
+  .profile-icons i {
+    font-size: 24px;
+    color: #007BFF;
+  }
+
   section {
     max-width: 800px;
     margin: 2em auto;
@@ -82,15 +100,6 @@
 
   a:hover {
     text-decoration: underline;
-  }
-
-  ul {
-    list-style: none;
-    padding: 0;
-  }
-
-  li {
-    margin-bottom: 0.5em;
   }
 
   footer {

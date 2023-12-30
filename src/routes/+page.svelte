@@ -20,7 +20,11 @@
  <section>
   <h2>Contact</h2>
   <p>お問い合わせは以下のメールアドレスまでお気軽にどうぞ：<a href="mailto:your.email@example.com">your.email@example.com</a></p>
-</section>
+  <div class="social-links">
+    <a href="https://twitter.com/your_twitter_username" target="_blank">Twitter</a>
+    <a href="https://github.com/your_github_username" target="_blank">GitHub</a>
+  </div>
+ </section>
 
  <footer>
   &copy; 2023 Your Name. All Rights Reserved.
@@ -81,5 +85,20 @@
     color: #fff;
     text-align: center;
     padding: 1em 0;
+  }
+
+  .social-links {
+    margin-top: 1em;
+  }
+
+  .social-links a {
+    display: inline-block;
+    margin-right: 1em;
+    color: #007BFF;
+    text-decoration: none;
+  }
+
+  .social-links a:hover {
+    text-decoration: underline;
   }
 </style>

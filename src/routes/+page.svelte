@@ -43,6 +43,11 @@
       <div class="skill-card">
         <h3>{skill.name}</h3>
         <p>{skill.year}</p>
+        <div class="skill-rating">
+          {#each {length: skill.star} as _}
+            <i class="fas fa-star"></i>
+          {/each}
+        </div>
         <a href="/skills/{skill.id}">Read More</a>
       </div>
     {/each}
@@ -225,6 +230,15 @@
 
   .skill-card p {
     color: #555;
+  }
+
+  .skill-rating {
+    margin-top: 0.5em;
+  }
+
+  .skill-rating i {
+    font-size: 18px;
+    color: #f8c200;
   }
 
   .article-container {

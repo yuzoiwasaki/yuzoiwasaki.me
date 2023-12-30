@@ -30,21 +30,15 @@
     <div class="skill-card">
       <h3>HTML</h3>
       <p>Webページの構造を作成するためのマークアップ言語です。</p>
-      <a href="#">Learn More</a>
+      <a href="/skills/html">Read More</a>
     </div>
 
     <div class="skill-card">
       <h3>CSS</h3>
       <p>Webページのスタイルを管理するためのスタイルシート言語です。</p>
-      <a href="#">Learn More</a>
+      <a href="/skills/css">Read More</a>
     </div>
   </div>
- </section>
-
- <section>
-   <h2>HTML</h2>
-   <p>HTML（HyperText Markup Language）は、Webページの構造を作成するためのマークアップ言語です。</p>
-   <p>このスキルに関連するプロジェクトや実績についての詳細情報を表示します。</p>
  </section>
 
  <section>

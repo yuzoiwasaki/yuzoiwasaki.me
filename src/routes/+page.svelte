@@ -7,24 +7,24 @@
 </script>
 
 <svelte:head>
-  <title>Your Name - Portfolio</title>
+  <title>yuzoiwasakiのポートフォリオサイト</title>
   <script src="https://kit.fontawesome.com/45ebf8b346.js" crossorigin="anonymous"></script>
 </svelte:head>
 
 <header>
   <img src={profile} alt="Your Name">
-  <h1>Your Name</h1>
-  <p>Web Developer</p>
+  <h1>Yuzo Iwasaki</h1>
+  <p>Software Engineer / Site Reliability Engineer / Engineering Manager and Other</p>
 
   <div class="profile-icons">
-    <a href="https://twitter.com/your_twitter_username" target="_blank"><i class="fa-brands fa-twitter"></i></a>
-    <a href="https://github.com/your_github_username" target="_blank"><i class="fa-brands fa-github"></i></a>
+    <a href="https://twitter.com/yuzoiwasaki" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+    <a href="https://github.com/yuzoiwasaki" target="_blank"><i class="fa-brands fa-github"></i></a>
   </div>
 </header>
 
  <section>
   <h2>About Me</h2>
-  <p>こんにちは！私は〇〇と申します。Web開発者として〇〇年の経験があります。...</p>
+  <p>エンジニア歴15年程度のベテランエンジニアです。ソフトウェアエンジニアリングをはじめ、SREやマネジメント、採用、IT統制など幅広く関わってきました。HRTを大切にする優しいチームが好きで、自らがマネージャーの際はそのようなチーム作りを心掛けています。</p>
 </section>
 
 <section>
@@ -42,11 +42,11 @@
 
  <section>
   <h2>Contact</h2>
-  <p>お問い合わせは以下のメールアドレスまでお気軽にどうぞ：<a href="mailto:your.email@example.com">your.email@example.com</a></p>
+  <p>お問い合わせは以下のメールアドレスまでお気軽にどうぞ：<a href="mailto:your.email@example.com">yuzoiwasaki0929@gmail.com</a></p>
  </section>
 
  <footer>
-  &copy; 2023 Your Name. All Rights Reserved.
+  &copy; 2023 yuzoiwasaki All Rights Reserved.
 </footer>
 
 <style>

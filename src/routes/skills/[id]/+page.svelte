@@ -1,6 +1,12 @@
+<script>
+  export let data;
+
+  $: ({ skill } = data);
+</script>
+
  <section>
-   <h1>CSS</h1>
-   <p>このスキルに関連するプロジェクトや実績についての詳細情報を表示します。</p>
+   <h1>{skill.name}</h1>
+   <p>{skill.description}</p>
  </section>
 
  <style>

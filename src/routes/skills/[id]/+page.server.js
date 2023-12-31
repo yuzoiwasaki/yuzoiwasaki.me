@@ -15,3 +15,5 @@ export async function load({ params }) {
   const skill = await getSkillFromJson(skillId);
   return { skill };
 }
+
+export const prerender = true

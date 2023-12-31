@@ -15,3 +15,5 @@ export async function load() {
   const articles = await loadArticles();
   return { skills, articles };
 }
+
+export const prerender = true

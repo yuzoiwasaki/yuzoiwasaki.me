@@ -1,0 +1,122 @@
+[
+  {
+    "title": "SREとDevOpsのおすすめ書籍まとめ",
+    "url": "https://qiita.com/yuzoiwasaki/items/eb9fbcb942d6f5c6fce4",
+    "section": "sre"
+  },
+  {
+    "title": "CAMPFIREにSREを導入した話",
+    "url": "https://qiita.com/yuzoiwasaki/items/d8b56a98822e2b2bb6e7",
+    "section": "sre"
+  },
+  {
+    "title": "SREチームのマネージャーを引退します！",
+    "url": "https://note.com/campfire_dev/n/na9fc70a3654b",
+    "section": "sre"
+  },
+  {
+    "title": "ポストモーテムとは",
+    "url": "https://note.com/campfire_dev/n/n2a46e3832207",
+    "section": "sre"
+  },
+  {
+    "title": "トイルとは",
+    "url": "https://note.com/campfire_dev/n/nd34ae0bee2fa",
+    "section": "sre"
+  },
+  {
+    "title": "エラーバジェットとは",
+    "url": "https://note.com/campfire_dev/n/nd1b73ecbc17c",
+    "section": "sre"
+  },
+  {
+    "title": "SREチームのインシデント対応について",
+    "url": "https://note.com/campfire_dev/n/n44b01a26d3d7",
+    "section": "sre"
+  },
+  {
+    "title": "ポストモーテム読書会を開催しました！",
+    "url": "https://note.com/campfire_dev/n/nfe332057001e",
+    "section": "sre"
+  },
+  {
+    "title": "プロダクションミーティングをやってみた",
+    "url": "https://note.com/campfire_dev/n/n9798f6d18182",
+    "section": "sre"
+  },
+  {
+    "title": "SREにおけるコンテキストの話",
+    "url": "https://note.com/gch/n/n07ffec31d5a0",
+    "section": "sre"
+  },
+  {
+    "title": "小さい組織での SRE の探求",
+    "url": "https://speakerdeck.com/yuzoiwasaki/xiao-saizu-zhi-deno-sre-notan-qiu",
+    "section": "sre"
+  },
+  {
+    "title": "DevOpsとリーンの理論と実践",
+    "url": "https://speakerdeck.com/yuzoiwasaki/devopstorinfalseli-lun-toshi-jian",
+    "section": "sre"
+  },
+  {
+    "title": "Nuxt+Bulma+S3でライブハウス支援サイトを作った",
+    "url": "https://qiita.com/yuzoiwasaki/items/d9b6ffa4ca1351825eee",
+    "section": "software-engineering"
+  },
+  {
+    "title": "Slack のスラッシュコマンドをサーバーレス構成で作ってみた",
+    "url": "https://zenn.dev/yuzoiwasaki/articles/e99a5a103902ba",
+    "section": "software-engineering"
+  },
+  {
+    "title": "初めてVimプラグインを自作してみた",
+    "url": "https://qiita.com/yuzoiwasaki/items/a6f03b170ca21700b969",
+    "section": "software-engineering"
+  },
+  {
+    "title": "imgixで遅延ロードを実装してみる",
+    "url": "https://qiita.com/yuzoiwasaki/items/27faa9f6b55babd783c7",
+    "section": "software-engineering"
+  },
+  {
+    "title": "エンジニアリングマネージャーとして意識していること",
+    "url": "https://note.com/gch/n/ned8ffe2d19ea",
+    "section": "management"
+  },
+  {
+    "title": "エンジニアリングマネージャーとしての数ヶ月を振り返る",
+    "url": "https://qiita.com/yuzoiwasaki/items/c37aad8b0c3aae4626e0",
+    "section": "management"
+  },
+  {
+    "title": "VPoE評価アンケートをやってみた",
+    "url": "https://note.com/gch/n/nde6c0a8d885a",
+    "section": "management"
+  },
+  {
+    "title": "SREの採用で意識していること",
+    "url": "https://note.com/campfire_dev/n/n6d82b67a2412",
+    "section": "recruitment"
+  },
+  {
+    "title": "初心者のためのIT統制マニュアル",
+    "url": "https://note.com/gch/n/n218640763953",
+    "section": "it-control"
+  },
+  {
+    "title": "2024年のIT統制はどうなるの？",
+    "url": "https://note.com/gch/n/nd5a5344c5fe7",
+    "section": "it-control"
+  },
+  {
+    "title": "外国人の子どもたちを対象にプログラミング教室を始めます",
+    "url": "https://note.com/gch/n/nf6ddccf7de1e",
+    "section": "other"
+  },
+  {
+    "title": "プログラミングワークショップ",
+    "url": "https://note.com/gch/n/n10b89a5b1827",
+    "section": "other"
+  }
+]

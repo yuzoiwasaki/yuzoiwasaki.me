@@ -3,7 +3,7 @@
 
   export let data;
 
-  $: ({ skills } = data);
+  $: ({ skills, articles } = data);
 </script>
 
 <svelte:head>
@@ -59,50 +59,56 @@
 
    <div class="article-section">
      <h3>SRE</h3>
-     <a href="https://qiita.com/yuzoiwasaki/items/eb9fbcb942d6f5c6fce4" class="article-link" target="_blank">SREとDevOpsのおすすめ書籍まとめ</a>
-     <a href="https://qiita.com/yuzoiwasaki/items/d8b56a98822e2b2bb6e7" class="article-link" target="_blank">CAMPFIREにSREを導入した話</a>
-     <a href="https://note.com/campfire_dev/n/na9fc70a3654b" class="article-link" target="_blank">SREチームのマネージャーを引退します！</a>
-     <a href="https://note.com/campfire_dev/n/n2a46e3832207" class="article-link" target="_blank">ポストモーテムとは</a>
-     <a href="https://note.com/campfire_dev/n/nd34ae0bee2fa" class="article-link" target="_blank">トイルとは</a>
-     <a href="https://note.com/campfire_dev/n/nd1b73ecbc17c" class="article-link" target="_blank">エラーバジェットとは</a>
-     <a href="https://note.com/campfire_dev/n/n44b01a26d3d7" class="article-link" target="_blank">SREチームのインシデント対応について</a>
-     <a href="https://note.com/campfire_dev/n/nfe332057001e" class="article-link" target="_blank">ポストモーテム読書会を開催しました！</a>
-     <a href="https://note.com/campfire_dev/n/n9798f6d18182" class="article-link" target="_blank">プロダクションミーティングをやってみた</a>
-     <a href="https://note.com/gch/n/n07ffec31d5a0" class="article-link" target="_blank">SREにおけるコンテキストの話</a>
-     <a href="https://speakerdeck.com/yuzoiwasaki/xiao-saizu-zhi-deno-sre-notan-qiu" class="article-link" target="_blank">小さい組織での SRE の探求</a>
-     <a href="https://speakerdeck.com/yuzoiwasaki/devopstorinfalseli-lun-toshi-jian" class="article-link" target="_blank">DevOpsとリーンの理論と実践</a>
+       {#each articles as article}
+         {#if article.section === 'sre'}
+           <a href="{article.url}" class="article-link" target="_blank">{article.title}</a>
+         {/if}
+       {/each}
    </div>
 
    <div class="article-section">
      <h3>ソフトウェアエンジニアリング</h3>
-     <a href="https://qiita.com/yuzoiwasaki/items/d9b6ffa4ca1351825eee" class="article-link" target="_blank">Nuxt+Bulma+S3でライブハウス支援サイトを作った</a>
-     <a href="https://qiita.com/yuzoiwasaki/items/27faa9f6b55babd783c7" class="article-link" target="_blank">imgixで遅延ロードを実装してみる</a>
-     <a href="https://qiita.com/yuzoiwasaki/items/a6f03b170ca21700b969" class="article-link" target="_blank">初めてVimプラグインを自作してみた</a>
-     <a href="https://zenn.dev/yuzoiwasaki/articles/e99a5a103902ba" class="article-link" target="_blank">Slack のスラッシュコマンドをサーバーレス構成で作ってみた</a>
+       {#each articles as article}
+         {#if article.section === 'software-engineering'}
+           <a href="{article.url}" class="article-link" target="_blank">{article.title}</a>
+         {/if}
+       {/each}
    </div>
 
    <div class="article-section">
      <h3>マネジメント</h3>
-     <a href="https://note.com/gch/n/ned8ffe2d19ea" class="article-link" target="_blank">エンジニアリングマネージャーとして意識していること</a>
-     <a href="https://qiita.com/yuzoiwasaki/items/c37aad8b0c3aae4626e0" class="article-link" target="_blank">エンジニアリングマネージャーとしての数ヶ月を振り返る</a>
-     <a href="https://note.com/gch/n/nde6c0a8d885a" class="article-link" target="_blank">VPoE評価アンケートをやってみた</a>
+       {#each articles as article}
+         {#if article.section === 'management'}
+           <a href="{article.url}" class="article-link" target="_blank">{article.title}</a>
+         {/if}
+       {/each}
    </div>
 
    <div class="article-section">
      <h3>採用</h3>
-     <a href="https://note.com/campfire_dev/n/n6d82b67a2412" class="article-link" target="_blank">SREの採用で意識していること</a>
+       {#each articles as article}
+         {#if article.section === 'recruitment'}
+           <a href="{article.url}" class="article-link" target="_blank">{article.title}</a>
+         {/if}
+       {/each}
    </div>
 
    <div class="article-section">
      <h3>IT統制</h3>
-     <a href="https://note.com/gch/n/n218640763953" class="article-link" target="_blank">初心者のためのIT統制マニュアル</a>
-     <a href="https://note.com/gch/n/nd5a5344c5fe7" class="article-link" target="_blank">2024年のIT統制はどうなるの？</a>
+       {#each articles as article}
+         {#if article.section === 'it-control'}
+           <a href="{article.url}" class="article-link" target="_blank">{article.title}</a>
+         {/if}
+       {/each}
    </div>
 
    <div class="article-section">
      <h3>その他</h3>
-     <a href="https://note.com/gch/n/nf6ddccf7de1e" class="article-link" target="_blank">外国人の子どもたちを対象にプログラミング教室を始めます</a>
-     <a href="https://note.com/gch/n/n10b89a5b1827" class="article-link" target="_blank">プログラミングワークショップ</a>
+       {#each articles as article}
+         {#if article.section === 'other'}
+           <a href="{article.url}" class="article-link" target="_blank">{article.title}</a>
+         {/if}
+       {/each}
    </div>
  </section>
 

@@ -16,4 +16,4 @@ export async function load() {
   return { skills, articles };
 }
 
-export const prerender = true
+export const prerender = true;

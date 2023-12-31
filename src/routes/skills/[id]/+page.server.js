@@ -16,4 +16,4 @@ export async function load({ params }) {
   return { skill };
 }
 
-export const prerender = true
+export const prerender = true;

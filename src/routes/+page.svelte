@@ -5,15 +5,18 @@
   export let data;
 
   $: ({ skills, articles } = data);
+
+  $: title = 'Yuzo Iwasaki のポートフォリオサイト';
+  $: description = 'エンジニア歴15年程度のベテランエンジニアです。ソフトウェアエンジニアリングをはじめ、SREやマネジメント、採用、IT統制など幅広く関わってきました。HRTを大切にする優しいチームが好きで、自らがマネージャーの際はそのようなチーム作りを心掛けています。';
 </script>
 
 <svelte:head>
-  <title>Yuzo Iwasaki のポートフォリオサイト</title>
-  <meta name="description" content="エンジニア歴15年程度のベテランエンジニアです。ソフトウェアエンジニアリングをはじめ、SREやマネジメント、採用、IT統制など幅広く関わってきました。HRTを大切にする優しいチームが好きで、自らがマネージャーの際はそのようなチーム作りを心掛けています。" />
+  <title>{title}</title>
+  <meta name="description" content={description} />
   <meta property="og:type" content="website" />
   <meta property="og:url" content={$page.url} />
-  <meta property="og:title" content="Yuzo Iwasaki のポートフォリオサイト" />
-  <meta property="og:description" content="エンジニア歴15年程度のベテランエンジニアです。ソフトウェアエンジニアリングをはじめ、SREやマネジメント、採用、IT統制など幅広く関わってきました。HRTを大切にする優しいチームが好きで、自らがマネージャーの際はそのようなチーム作りを心掛けています。" />
+  <meta property="og:title" content={title} />
+  <meta property="og:description" content={description} />
   <meta property="og:image" content={profile} />
 </svelte:head>
 

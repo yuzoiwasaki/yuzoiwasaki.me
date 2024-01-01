@@ -127,7 +127,7 @@
  </section>
 
  <footer>
-  &copy; 2023 yuzoiwasaki All Rights Reserved.
+  &copy; 2024 yuzoiwasaki All Rights Reserved.
 </footer>
 <style>
   body {

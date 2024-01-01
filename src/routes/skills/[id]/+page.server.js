@@ -11,7 +11,7 @@ async function getSkillFromJson(skillId) {
 }
 
 export async function load({ params }) {
-  const skillId = params.id
+  const skillId = params.id;
   const skill = await getSkillFromJson(skillId);
   return { skill };
 }

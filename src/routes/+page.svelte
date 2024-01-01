@@ -1,5 +1,5 @@
 <script>
-  import profile from '$lib/images/profile.jpg'
+  import profile from '$lib/images/profile.jpg';
 
   export let data;
 
@@ -61,74 +61,75 @@
       </div>
     {/each}
   </div>
- </section>
+</section>
 
- <section class="article-container">
-   <h2>Articles</h2>
+<section class="article-container">
+  <h2>Articles</h2>
 
-   <div class="article-section">
-     <h3>SRE</h3>
-       {#each articles as article}
-         {#if article.section === 'sre'}
-           <a href="{article.url}" class="article-link" target="_blank">{article.title}</a>
-         {/if}
-       {/each}
-   </div>
+  <div class="article-section">
+    <h3>SRE</h3>
+    {#each articles as article}
+      {#if article.section === 'sre'}
+        <a href="{article.url}" class="article-link" target="_blank">{article.title}</a>
+      {/if}
+    {/each}
+  </div>
 
-   <div class="article-section">
-     <h3>ソフトウェアエンジニアリング</h3>
-       {#each articles as article}
-         {#if article.section === 'software-engineering'}
-           <a href="{article.url}" class="article-link" target="_blank">{article.title}</a>
-         {/if}
-       {/each}
-   </div>
+  <div class="article-section">
+    <h3>ソフトウェアエンジニアリング</h3>
+    {#each articles as article}
+      {#if article.section === 'software-engineering'}
+        <a href="{article.url}" class="article-link" target="_blank">{article.title}</a>
+      {/if}
+    {/each}
+  </div>
 
-   <div class="article-section">
-     <h3>マネジメント</h3>
-       {#each articles as article}
-         {#if article.section === 'management'}
-           <a href="{article.url}" class="article-link" target="_blank">{article.title}</a>
-         {/if}
-       {/each}
-   </div>
+  <div class="article-section">
+    <h3>マネジメント</h3>
+    {#each articles as article}
+      {#if article.section === 'management'}
+        <a href="{article.url}" class="article-link" target="_blank">{article.title}</a>
+      {/if}
+    {/each}
+  </div>
 
-   <div class="article-section">
-     <h3>採用</h3>
-       {#each articles as article}
-         {#if article.section === 'recruitment'}
-           <a href="{article.url}" class="article-link" target="_blank">{article.title}</a>
-         {/if}
-       {/each}
-   </div>
+  <div class="article-section">
+    <h3>採用</h3>
+    {#each articles as article}
+      {#if article.section === 'recruitment'}
+        <a href="{article.url}" class="article-link" target="_blank">{article.title}</a>
+      {/if}
+    {/each}
+  </div>
 
-   <div class="article-section">
-     <h3>IT統制</h3>
-       {#each articles as article}
-         {#if article.section === 'it-control'}
-           <a href="{article.url}" class="article-link" target="_blank">{article.title}</a>
-         {/if}
-       {/each}
-   </div>
+  <div class="article-section">
+    <h3>IT統制</h3>
+    {#each articles as article}
+      {#if article.section === 'it-control'}
+        <a href="{article.url}" class="article-link" target="_blank">{article.title}</a>
+      {/if}
+    {/each}
+  </div>
 
-   <div class="article-section">
-     <h3>その他</h3>
-       {#each articles as article}
-         {#if article.section === 'other'}
-           <a href="{article.url}" class="article-link" target="_blank">{article.title}</a>
-         {/if}
-       {/each}
-   </div>
- </section>
+  <div class="article-section">
+    <h3>その他</h3>
+    {#each articles as article}
+      {#if article.section === 'other'}
+        <a href="{article.url}" class="article-link" target="_blank">{article.title}</a>
+      {/if}
+    {/each}
+  </div>
+</section>
 
- <section>
+<section>
   <h2>Contact</h2>
   <p>お問い合わせは以下のメールアドレスまでお気軽にどうぞ：<a href="mailto:yuzoiwasaki0929@gmail.com">yuzoiwasaki0929@gmail.com</a></p>
- </section>
+</section>
 
- <footer>
+<footer>
   &copy; 2024 yuzoiwasaki All Rights Reserved.
 </footer>
+
 <style>
   body {
     font-family: 'Arial', sans-serif;

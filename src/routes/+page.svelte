@@ -10,10 +10,11 @@
 <svelte:head>
   <title>Yuzo Iwasaki のポートフォリオサイト</title>
   <meta name="description" content="エンジニア歴15年程度のベテランエンジニアです。ソフトウェアエンジニアリングをはじめ、SREやマネジメント、採用、IT統制など幅広く関わってきました。HRTを大切にする優しいチームが好きで、自らがマネージャーの際はそのようなチーム作りを心掛けています。" />
-  <meta name="og:type" content="website" />
-  <meta name="og:url" content={$page.url} />
-  <meta name="og:title" content="Yuzo Iwasaki のポートフォリオサイト" />
-  <meta name="og:description" content="エンジニア歴15年程度のベテランエンジニアです。ソフトウェアエンジニアリングをはじめ、SREやマネジメント、採用、IT統制など幅広く関わってきました。HRTを大切にする優しいチームが好きで、自らがマネージャーの際はそのようなチーム作りを心掛けています。" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content={$page.url} />
+  <meta property="og:title" content="Yuzo Iwasaki のポートフォリオサイト" />
+  <meta property="og:description" content="エンジニア歴15年程度のベテランエンジニアです。ソフトウェアエンジニアリングをはじめ、SREやマネジメント、採用、IT統制など幅広く関わってきました。HRTを大切にする優しいチームが好きで、自らがマネージャーの際はそのようなチーム作りを心掛けています。" />
+  <meta property="og:image" content={profile} />
 </svelte:head>
 
 <header>

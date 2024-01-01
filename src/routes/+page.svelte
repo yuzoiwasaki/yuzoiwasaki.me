@@ -33,7 +33,7 @@
 
  <section>
   <h2>About Me</h2>
-  <p>エンジニア歴15年程度のベテランエンジニアです。ソフトウェアエンジニアリングをはじめ、SREやマネジメント、採用、IT統制など幅広く関わってきました。HRTを大切にする優しいチームが好きで、自らがマネージャーの際はそのようなチーム作りを心掛けています。</p>
+  <p>{description}</p>
 </section>
 
 <section class="experience-container">

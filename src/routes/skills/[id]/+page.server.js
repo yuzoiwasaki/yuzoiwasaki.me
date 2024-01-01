@@ -1,9 +1,4 @@
-import { readFile } from 'fs/promises';
-
-async function loadSkills() {
-  const content = await readFile('data/skills.json', { encoding: 'utf-8' });
-  return JSON.parse(content);
-}
+import { loadSkills } from '$lib/server/skill';
 
 async function getSkillFromJson(skillId) {
   const skills = await loadSkills();

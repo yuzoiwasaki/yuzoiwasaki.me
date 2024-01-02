@@ -210,21 +210,6 @@
     text-decoration: underline;
   }
 
-  .social-links {
-    margin-top: 1em;
-  }
-
-  .social-links a {
-    display: inline-block;
-    margin-right: 1em;
-    color: #007BFF;
-    text-decoration: none;
-  }
-
-  .social-links a:hover {
-    text-decoration: underline;
-  }
-
   .experience-container {
     margin-top: 2em;
   }

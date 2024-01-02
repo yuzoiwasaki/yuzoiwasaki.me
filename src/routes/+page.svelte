@@ -149,7 +149,7 @@
     background-color: #f4f4f4;
   }
 
-  :global(section) {
+  section {
     max-width: 800px;
     margin: 2em auto;
     padding: 2em;
@@ -161,7 +161,7 @@
     color: #333;
   }
 
-  :global(p) {
+  p {
     line-height: 1.6;
     color: #555;
   }

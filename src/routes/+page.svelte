@@ -31,7 +31,7 @@
   </div>
 </header>
 
- <section>
+<section>
   <h2>About Me</h2>
   <p>{description}</p>
 </section>

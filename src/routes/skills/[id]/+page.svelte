@@ -7,6 +7,8 @@
  <section>
    <h1>{skill.name}</h1>
    <p>{skill.description}</p>
+
+   <p><a href="/">Back to Top</a></p>
  </section>
 
  <style>

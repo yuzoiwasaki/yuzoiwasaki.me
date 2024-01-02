@@ -1,6 +1,7 @@
 <script>
   import profile from '$lib/images/profile.jpg';
   import { page } from '$app/stores';
+  import Footer from './Footer.svelte';
 
   export let data;
 
@@ -146,9 +147,7 @@
   <p>お問い合わせは以下のメールアドレスまでお気軽にどうぞ：<a href="mailto:yuzoiwasaki0929@gmail.com">yuzoiwasaki0929@gmail.com</a></p>
 </section>
 
-<footer>
-  &copy; 2024 yuzoiwasaki All Rights Reserved.
-</footer>
+<Footer />
 
 <style>
   body {
@@ -287,12 +286,5 @@
   .talk-card a:hover {
     color: #0056b3;
     text-decoration: underline;
-  }
-
-  footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 1em 0;
   }
 </style>

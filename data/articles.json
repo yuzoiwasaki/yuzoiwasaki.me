@@ -50,16 +50,6 @@
     "section": "sre"
   },
   {
-    "title": "小さい組織での SRE の探求",
-    "url": "https://speakerdeck.com/yuzoiwasaki/xiao-saizu-zhi-deno-sre-notan-qiu",
-    "section": "sre"
-  },
-  {
-    "title": "DevOpsとリーンの理論と実践",
-    "url": "https://speakerdeck.com/yuzoiwasaki/devopstorinfalseli-lun-toshi-jian",
-    "section": "sre"
-  },
-  {
     "title": "Nuxt+Bulma+S3でライブハウス支援サイトを作った",
     "url": "https://qiita.com/yuzoiwasaki/items/d9b6ffa4ca1351825eee",
     "section": "software-engineering"

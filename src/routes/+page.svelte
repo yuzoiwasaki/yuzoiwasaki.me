@@ -4,7 +4,7 @@
 
   export let data;
 
-  $: ({ skills, articles } = data);
+  $: ({ skills, articles, talks } = data);
 
   $: title = 'Yuzo Iwasaki のポートフォリオサイト';
   $: description = 'エンジニア歴15年程度のベテランエンジニアです。ソフトウェアエンジニアリングをはじめ、SREやマネジメント、採用、IT統制など幅広く関わってきました。HRTを大切にする優しいチームが好きで、自らがマネージャーの際はそのようなチーム作りを心掛けています。';
@@ -127,6 +127,16 @@
       {#if article.section === 'other'}
         <a href="{article.url}" class="article-link" target="_blank">{article.title}</a>
       {/if}
+    {/each}
+  </div>
+</section>
+
+<section class="talks-container">
+  <h2>Talks</h2>
+
+  <div class="talk-card">
+    {#each talks as talk}
+      <h3><a href="{talk.url}" target="_blank">{talk.title}</a></h3>
     {/each}
   </div>
 </section>
@@ -277,6 +287,21 @@
   .article-link {
     display: block;
     margin-bottom: 0.5em;
+  }
+
+  .talks-container {
+    margin-top: 2em;
+  }
+
+  .talk-card {
+    color: #007BFF;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+
+  .talk-card a:hover {
+    color: #0056b3;
+    text-decoration: underline;
   }
 
   footer {

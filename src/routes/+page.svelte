@@ -4,6 +4,7 @@
   import Header from './Header.svelte';
   import AboutMe from './AboutMe.svelte';
   import Experience from './Experience.svelte';
+  import Talk from './Talk.svelte';
   import Contact from './Contact.svelte';
   import Footer from './Footer.svelte';
 
@@ -107,15 +108,7 @@
   </div>
 </section>
 
-<section class="talks-container">
-  <h2>Talks</h2>
-
-  <div class="talk-card">
-    {#each talks as talk}
-      <h3><a href="{talk.url}" target="_blank">{talk.title}</a></h3>
-    {/each}
-  </div>
-</section>
+<Talk talks={talks} />
 
 <Contact />
 
@@ -199,20 +192,5 @@
   .article-link {
     display: block;
     margin-bottom: 0.5em;
-  }
-
-  .talks-container {
-    margin-top: 2em;
-  }
-
-  .talk-card {
-    color: #007BFF;
-    text-decoration: none;
-    transition: color 0.3s ease;
-  }
-
-  .talk-card a:hover {
-    color: #0056b3;
-    text-decoration: underline;
   }
 </style>

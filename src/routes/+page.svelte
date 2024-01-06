@@ -2,6 +2,7 @@
   import profile from '$lib/images/profile.jpg';
   import { page } from '$app/stores';
   import Header from './Header.svelte';
+  import AboutMe from './AboutMe.svelte';
   import Experience from './Experience.svelte';
   import Contact from './Contact.svelte';
   import Footer from './Footer.svelte';
@@ -26,10 +27,7 @@
 
 <Header />
 
-<section>
-  <h2>About Me</h2>
-  <p>{description}</p>
-</section>
+<AboutMe />
 
 <Experience />
 

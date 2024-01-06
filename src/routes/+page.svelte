@@ -2,6 +2,7 @@
   import profile from '$lib/images/profile.jpg';
   import { page } from '$app/stores';
   import Header from './Header.svelte';
+  import Contact from './Contact.svelte';
   import Footer from './Footer.svelte';
 
   export let data;
@@ -134,10 +135,7 @@
   </div>
 </section>
 
-<section>
-  <h2>Contact</h2>
-  <p>お問い合わせは以下のメールアドレスまでお気軽にどうぞ：<a href="mailto:yuzoiwasaki0929@gmail.com">yuzoiwasaki0929@gmail.com</a></p>
-</section>
+<Contact />
 
 <Footer />
 
@@ -149,7 +147,7 @@
     background-color: #f4f4f4;
   }
 
-  section {
+  :global(section) {
     max-width: 800px;
     margin: 2em auto;
     padding: 2em;
@@ -157,21 +155,21 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
 
-  h2 {
+  :global(h2) {
     color: #333;
   }
 
-  p {
+  :global(p) {
     line-height: 1.6;
     color: #555;
   }
 
-  a {
+  :global(a) {
     color: #007BFF;
     text-decoration: none;
   }
 
-  a:hover {
+  :global(a:hover) {
     text-decoration: underline;
   }
 

@@ -70,6 +70,13 @@
     "description": "おもに CAMPFIRE での業務とプライベートで触っていました。こちらについてもAWSが中心で、Google Cloud の経験はそこまでありません。"
   },
   {
+    "id": "security",
+    "name": "セキュリティ",
+    "year": "5年以上",
+    "star": "2",
+    "description": "LPIC-3 303 セキュリティ を取得した経験があります。また、SREとしてDevSecOpsに取り組みました。"
+  },
+  {
     "id": "network",
     "name": "ネットワーク",
     "year": "3年",

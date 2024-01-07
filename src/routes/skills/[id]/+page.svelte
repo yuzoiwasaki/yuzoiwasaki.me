@@ -4,14 +4,14 @@
   $: ({ skill } = data);
 </script>
 
- <section>
-   <h1>{skill.name}</h1>
-   <p>{skill.description}</p>
+<section>
+  <h1>{skill.name}</h1>
+  <p>{skill.description}</p>
 
-   <p><a href="/">Back to Top</a></p>
- </section>
+  <p><a href="/">Back to Top</a></p>
+</section>
 
- <style>
+<style>
   section {
     max-width: 800px;
     margin: 2em auto;
@@ -28,4 +28,4 @@
     line-height: 1.6;
     color: #555;
   }
- </style>
+</style>

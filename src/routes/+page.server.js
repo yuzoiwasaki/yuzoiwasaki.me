@@ -1,6 +1,6 @@
-import { loadSkills } from '$lib/server/skill';
-import { loadArticles } from '$lib/server/article';
-import { loadTalks } from '$lib/server/talk';
+import { loadSkills } from "$lib/server/skill";
+import { loadArticles } from "$lib/server/article";
+import { loadTalks } from "$lib/server/talk";
 
 export async function load() {
   const skills = await loadSkills();

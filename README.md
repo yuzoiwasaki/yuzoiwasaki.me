@@ -6,7 +6,6 @@ This is my portfolio site.
 
 ## Developing
 
-
 ```bash
 npm run dev
 

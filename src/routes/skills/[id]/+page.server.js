@@ -1,4 +1,4 @@
-import { loadSkills } from '$lib/server/skill';
+import { loadSkills } from "$lib/server/skill";
 
 async function getSkillFromJson(skillId) {
   const skills = await loadSkills();

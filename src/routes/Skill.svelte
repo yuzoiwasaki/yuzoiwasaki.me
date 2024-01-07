@@ -10,7 +10,7 @@
         <h3>{skill.name}</h3>
         <p>{skill.year}</p>
         <div class="skill-rating">
-          {#each {length: skill.star} as _}
+          {#each { length: skill.star } as _}
             <i class="fas fa-star"></i>
           {/each}
         </div>

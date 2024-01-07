@@ -7,7 +7,7 @@
 
   <div class="talk-card">
     {#each talks as talk}
-      <h3><a href="{talk.url}" target="_blank">{talk.title}</a></h3>
+      <h3><a href={talk.url} target="_blank">{talk.title}</a></h3>
     {/each}
   </div>
 </section>
@@ -18,7 +18,7 @@
   }
 
   .talk-card {
-    color: #007BFF;
+    color: #007bff;
     text-decoration: none;
     transition: color 0.3s ease;
   }

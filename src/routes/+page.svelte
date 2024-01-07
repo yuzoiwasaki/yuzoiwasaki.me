@@ -1,21 +1,22 @@
 <script>
-  import profile from '$lib/images/profile.jpg';
-  import { page } from '$app/stores';
-  import Header from './Header.svelte';
-  import AboutMe from './AboutMe.svelte';
-  import Experience from './Experience.svelte';
-  import Skill from './Skill.svelte';
-  import Article from './Article.svelte';
-  import Talk from './Talk.svelte';
-  import Contact from './Contact.svelte';
-  import Footer from './Footer.svelte';
+  import profile from "$lib/images/profile.jpg";
+  import { page } from "$app/stores";
+  import Header from "./Header.svelte";
+  import AboutMe from "./AboutMe.svelte";
+  import Experience from "./Experience.svelte";
+  import Skill from "./Skill.svelte";
+  import Article from "./Article.svelte";
+  import Talk from "./Talk.svelte";
+  import Contact from "./Contact.svelte";
+  import Footer from "./Footer.svelte";
 
   export let data;
 
   $: ({ skills, articles, talks } = data);
 
-  $: title = 'Yuzo Iwasaki のポートフォリオサイト';
-  $: description = 'エンジニア歴15年程度のベテランエンジニアです。ソフトウェアエンジニアリングをはじめ、SREやマネジメント、採用、IT統制など幅広く関わってきました。HRTを大切にする優しいチームが好きで、自らがマネージャーの際はそのようなチーム作りを心掛けています。';
+  $: title = "Yuzo Iwasaki のポートフォリオサイト";
+  $: description =
+    "エンジニア歴15年程度のベテランエンジニアです。ソフトウェアエンジニアリングをはじめ、SREやマネジメント、採用、IT統制など幅広く関わってきました。HRTを大切にする優しいチームが好きで、自らがマネージャーの際はそのようなチーム作りを心掛けています。";
 </script>
 
 <svelte:head>
@@ -34,11 +35,11 @@
 
 <Experience />
 
-<Skill skills={skills} />
+<Skill {skills} />
 
-<Article articles={articles} />
+<Article {articles} />
 
-<Talk talks={talks} />
+<Talk {talks} />
 
 <Contact />
 
@@ -46,7 +47,7 @@
 
 <style>
   :global(body) {
-    font-family: 'Arial', sans-serif;
+    font-family: "Arial", sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
@@ -70,7 +71,7 @@
   }
 
   :global(a) {
-    color: #007BFF;
+    color: #007bff;
     text-decoration: none;
   }
 

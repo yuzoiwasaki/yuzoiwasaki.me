@@ -12,10 +12,10 @@
 
   export let data;
 
-  $: ({ skills, articles, talks } = data);
+  const { skills, articles, talks } = data;
 
-  $: title = "Yuzo Iwasaki のポートフォリオサイト";
-  $: description =
+  const title = "Yuzo Iwasaki のポートフォリオサイト";
+  const description =
     "エンジニア歴15年程度のベテランエンジニアです。ソフトウェアエンジニアリングをはじめ、SREやマネジメント、採用、IT統制など幅広く関わってきました。HRTを大切にする優しいチームが好きで、自らがマネージャーの際はそのようなチーム作りを心掛けています。";
 </script>
 

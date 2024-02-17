@@ -1,7 +1,7 @@
 <script>
   export let data;
 
-  const { skill } = data;
+  $: ({ skill } = data);
 </script>
 
 <section>

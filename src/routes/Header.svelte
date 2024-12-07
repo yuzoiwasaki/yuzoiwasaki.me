@@ -12,7 +12,7 @@
 
   <div class="profile-icons">
     <a href="https://twitter.com/yuzoiwasaki" target="_blank"
-      ><i class="fa-brands fa-twitter"></i></a
+      ><i class="fa-brands fa-x-twitter"></i></a
     >
     <a href="https://github.com/yuzoiwasaki" target="_blank"
       ><i class="fa-brands fa-github"></i></a

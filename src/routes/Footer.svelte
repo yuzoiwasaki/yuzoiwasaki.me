@@ -1,5 +1,5 @@
 <footer>
-  &copy; 2024 yuzoiwasaki All Rights Reserved.
+  &copy; 2025 yuzoiwasaki All Rights Reserved.
   <p>
     <a href="https://github.com/yuzoiwasaki/yuzoiwasaki.me" target="_blank"
       >View on GitHub</a

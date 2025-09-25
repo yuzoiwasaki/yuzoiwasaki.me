@@ -6,8 +6,7 @@
   <img src={profile} alt="プロフィール画像" />
   <h1>Yuzo Iwasaki</h1>
   <p>
-    Software Engineer / Site Reliability Engineer / Engineering Manager and
-    Other
+    Security / Internal Controls / Corporate IT and Engineering across everything !
   </p>
 
   <div class="profile-icons">

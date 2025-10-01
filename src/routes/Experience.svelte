@@ -1,6 +1,14 @@
 <section class="experience-container">
   <h2>Experience</h2>
   <div class="experience-card">
+    <h3>GMOタウンWiFi株式会社</h3>
+    <p>期間: 2025年 - 現在</p>
+    <p>
+      業務内容:
+      2025年8月よりリファラル経由で入社。現在はグループ会社も含めたセキュリティ、内部統制、情シス業務を担当しています。
+    </p>
+  </div>
+  <div class="experience-card">
     <h3>株式会社CAMPFIRE</h3>
     <p>期間: 2016年 - 2025年</p>
     <p>

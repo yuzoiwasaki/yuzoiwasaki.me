@@ -61,6 +61,17 @@
   </div>
 
   <div class="article-section">
+    <h3>セキュリティ</h3>
+    {#each articles as article}
+      {#if article.section === "security"}
+        <a href={article.url} class="article-link" target="_blank"
+          >{article.title}</a
+        >
+      {/if}
+    {/each}
+  </div>
+
+  <div class="article-section">
     <h3>その他</h3>
     {#each articles as article}
       {#if article.section === "other"}

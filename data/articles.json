@@ -120,6 +120,16 @@
     "section": "it-control"
   },
   {
+    "title": "セキュリティチェックシートを作った話",
+    "url": "https://note.com/gch/n/n9f1de7992952",
+    "section": "security"
+  },
+  {
+    "title": "ギャルによるAI活用ガイドライン",
+    "url": "https://note.com/gch/n/nd209629c6f65",
+    "section": "security"
+  },
+  {
     "title": "CAMPFIRE での8年間を振り返る",
     "url": "https://note.com/gch/n/nc59e3401ed39",
     "section": "other"
@@ -132,11 +142,6 @@
   {
     "title": "プログラミングワークショップ",
     "url": "https://note.com/gch/n/n10b89a5b1827",
-    "section": "other"
-  },
-  {
-    "title": "セキュリティチェックシートを作った話",
-    "url": "https://note.com/gch/n/n9f1de7992952",
     "section": "other"
   }
 ]

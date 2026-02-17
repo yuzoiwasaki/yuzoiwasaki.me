@@ -6,7 +6,7 @@
   <img src={profile} alt="プロフィール画像" />
   <h1>Yuzo Iwasaki</h1>
   <p>
-    Security / Internal Controls / Corporate IT and Engineering across everything !
+    Security / Internal Controls / Corporate IT and Engineering
   </p>
 
   <div class="profile-icons">

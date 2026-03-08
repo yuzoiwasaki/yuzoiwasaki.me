@@ -3,22 +3,15 @@
     "id": "ruby",
     "name": "Ruby",
     "year": "5年以上",
-    "star": "3",
+    "star": "2",
     "description": "Webエンジニア時代のほとんどで関わってきました。最近は遠ざかっていますが、以前は地域コミュニティやカンファレンスにも積極的に参加していました。"
   },
   {
     "id": "rails",
     "name": "Rails",
     "year": "5年以上",
-    "star": "3",
-    "description": "Ruby同様、Webエンジニア時代のほとんどで関わってきました。Rails 2から7までの経験があります。"
-  },
-  {
-    "id": "php",
-    "name": "PHP",
-    "year": "3年",
     "star": "2",
-    "description": "おもに CAMPFIRE の前半で触っていました。経験したことのあるフレームワークは CodeIgniter と CakePHP です。基本的なコードは書けますが、Ruby / Rails に比べると劣ると思います。"
+    "description": "Ruby同様、Webエンジニア時代のほとんどで関わってきました。Rails 2から7までの経験があります。"
   },
   {
     "id": "javascript",
@@ -65,7 +58,7 @@
   {
     "id": "network",
     "name": "ネットワーク",
-    "year": "3年",
+    "year": "5年以上",
     "star": "2",
     "description": "一社目でルータやスイッチの設定を行っていました。CCNAを取得した経験があります。CAMPFIREなどでは一時期社内ネットワークを構築、運用していました。"
   },
